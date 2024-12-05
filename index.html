@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogotá Activa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Bogotá Activa</h1>
+        <p>Explora eventos, programas y actividades comunitarias en Bogotá.</p>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Busca por categoría o palabra clave">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>Categorías</h2>
+            <div class="category-list">
+                <div class="category" data-category="cultura">🎭 Cultura</div>
+                <div class="category" data-category="deportes">⚽ Deportes</div>
+                <div class="category" data-category="salud">❤️ Salud</div>
+                <div class="category" data-category="educacion">📚 Educación</div>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Eventos destacados</h2>
+            <div id="events-container">
+                <!-- Aquí se cargarán los eventos dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Bogotá Activa. Promoviendo la participación ciudadana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
